@@ -1,0 +1,16 @@
+.btn_custom_size{
+  padding: 11px 0;
+}
+.actn_btn{
+  height: 40px;
+  width: 40px;
+}
+.actn_btn i{
+  font-size: 16px;
+}
+.dropdown_toggle_custom2 .actn_btn+div{
+  transform: translate3d(0px, 42px, 0px) !important;
+}
+.noDrpArrow::after{
+  content:unset;
+}

@@ -1,0 +1,9 @@
+
+.config_tabs_box a{
+    padding: 6px 8px;
+    font-size: 12px;
+}
+ .config_tabs_box a.active{
+   color: #ffffff !important;
+   background-color: #000;
+}

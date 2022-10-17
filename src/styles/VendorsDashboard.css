@@ -1,0 +1,59 @@
+
+.v_dashbord_sec .config_tabs_box a{
+    padding: 6px 8px;
+    font-size: 12px;
+}
+.v_dashbord_sec .config_tabs_box a.active{
+   color: #ffffff !important;
+   background-color: #1C204D;
+}
+
+.v_dashbord_sec .vendor_info_block .vendor_info_box{
+  font-size: 12px;
+}
+.v_dashbord_sec .vendor_info_block .vendor_info_box .count{
+  font-size: 20px;
+}
+.v_dashbord_sec .vendor_info_block .vendor_info_box .count{
+  font-size: 20px;
+  position: relative;
+}
+.v_dashbord_sec .vendor_info_block .color_1{
+  color: #3476FA;
+}
+.v_dashbord_sec .vendor_info_block .color_2{
+  color: #F78F6E;
+}
+.v_dashbord_sec .vendor_info_block .color_3{
+  color: #7FBCAC;
+}
+
+.v_dashbord_sec .vendor_info_block .vendor_info_box .count::before{
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -20px;
+}
+
+.v_dashbord_sec .vendor_info_block .vendor_info_box .count.color_1::before{
+  background: #3476FA;
+}
+.v_dashbord_sec .vendor_info_block .vendor_info_box .count.color_2::before{
+  background: #F78F6E;
+}
+.v_dashbord_sec .vendor_info_block .vendor_info_box .count.color_3::before{
+  background: #7FBCAC;
+}
+
+.v_dashbord_sec .vendors_table_block .vendor_name {
+  width: 170px;
+}
+.v_dashbord_sec .vendors_table_block .vendor_email {
+  width: 250px;;
+}
+.v_dashbord_sec .vendors_table_block .vendor_score {
+  width: 50px;
+}

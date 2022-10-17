@@ -1,0 +1,20 @@
+#v_config_sec .config_tabs_box a {
+  padding: 7px 10px;
+  font-size: 13px;
+}
+#v_config_sec .config_tabs_box a.active {
+  color: #ffffff !important;
+  background-color: #000;
+}
+
+#v_config_sec form.vendor_custom_form2 select,
+#v_config_sec form.vendor_custom_form2 input {
+  font-size: 13px !important;
+  height: 30px;
+}
+
+#v_config_sec .vendor_table_block,
+#v_config_sec .conf_table thead th,
+#v_config_sec .conf_table tbody td {
+  font-size: 13px !important;
+}

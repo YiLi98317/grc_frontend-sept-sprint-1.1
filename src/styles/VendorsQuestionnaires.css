@@ -1,0 +1,32 @@
+
+.v_questionaire_sec .vm_btns_box a {
+    padding: 7px 10px;
+}
+.v_questionaire_sec .btn-outline-primary{
+    max-width: 120px;
+}
+
+.v_questionaire_sec ul.level3 > li > a.collapsed > .actionBtn {
+    display: block;
+}
+
+.v_questionaire_sec  ul.level3 > li > .fieldCaption {
+    border: 1px solid #717A86;
+    height: 100%;
+    margin: 10px;
+    border-radius: 10px;
+    min-height: 61px;
+    padding: 10px;
+    transition: .500ms ease;
+}
+
+#v_questionaire_sec #va_header_section h1 {
+    font-size: 18px;
+}
+.accordianSec .card-header a{
+    font-size: 15px;
+}
+.v_questionaire_sec ul.level2 > li > a,
+.v_questionaire_sec ul.level3 > li > a{
+    font-size: 14px;;
+}

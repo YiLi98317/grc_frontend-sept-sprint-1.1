@@ -1,0 +1,20 @@
+#v_ev_manager_sec .card_header::before {
+  content: initial !important;
+}
+#v_ev_manager_sec .card_header select {
+  top: 0;
+  left: 0;
+  border: 0;
+  border-bottom: 1px solid #c9ced9;
+}
+#v_ev_manager_sec a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+#v_ev_manager_sec .vem_header_section {
+  font-size: 18px !important;
+}
+#v_ev_manager_sec ul.level2 > li > a,
+#v_ev_manager_sec ul.level3 > li > a {
+  font-size: 14px;
+}

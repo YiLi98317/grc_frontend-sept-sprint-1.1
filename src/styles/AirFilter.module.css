@@ -1,0 +1,207 @@
+.airFilter_sec {
+  width: 40px;
+  height: 40px;
+  box-shadow: 0px 6px 12px #efe9ea;
+  position: relative;
+  background: #ffffff;
+  font-size: 13px;
+}
+
+.airFilter_sec button {
+  font-size: 18px;
+}
+.airFilter_sec button span.filter_check {
+  position: absolute;
+  font-size: 14px;
+  background: white;
+  top: 19px;
+  left: 25px;
+}
+
+.airFilter_sec .airFilter_dropdown {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-shadow: 0px 6px 16px #efe9ea;
+  min-width: 320px;
+  height: 240px;
+  position: absolute;
+  right: 0;
+  z-index: 3;
+  top: 40px;
+}
+.airFilter_sec .airFilter_dropdown.hide {
+  display: none;
+}
+.airFilter_sec .airFilter_dropdown.show {
+  display: block;
+}
+
+.airFilter_sec.light .airFilter_dropdown {
+  background: #ffffff;
+}
+
+.airFilter_sec.dark .airFilter_dropdown {
+  background: #000000;
+  color: #ffffff;
+}
+
+.airFilter_sec .filter_opts {
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #DBDFEA;
+}
+
+.airFilter_sec .clr_btn {
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.airFilter_sec.theme1 .clr_btn {
+  color: #FFCC98;
+}
+
+.airFilter_sec.theme2 .clr_btn {
+  color: #EED6BF;
+}
+
+.airFilter_sec.theme3 .clr_btn {
+  color: #14C7DE;
+}
+
+.airFilter_sec.theme4 .clr_btn {
+  color: #009EAA;
+}
+
+.airFilter_sec.theme5 .clr_btn {
+  color: #1974D3;
+}
+
+.airFilter_sec .filters_block {
+  height: 100%;
+  max-height: calc(100% - 40px);
+  overflow-y: auto;
+}
+
+.airFilter_sec .filter_box {
+  padding: 0px
+}
+
+.airFilter_sec .filter_box_title{
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  cursor: pointer;
+  padding: 0px 20px
+}
+.airFilter_sec.theme1 .filter_box.open .filter_box_title{
+  background: rgb(255 204 152 / 40%);
+}
+.airFilter_sec.theme2 .filter_box.open .filter_box_title{
+  background: rgb(238 214 191 / 40%);
+}
+.airFilter_sec.theme3 .filter_box.open .filter_box_title{
+  background: rgb(20 199 222 / 40%);
+}
+.airFilter_sec.theme4 .filter_box.open .filter_box_title{
+  background: rgb(0 158 170 / 40%);
+}
+.airFilter_sec.theme5 .filter_box.open .filter_box_title{
+  background: rgb(25 116 211 / 40%);
+}
+.airFilter_sec .filter_box_title h4{
+  font-size: inherit;
+  flex: 1 1 auto;
+  margin-bottom: 0;
+  padding: 15px 0px;
+  position: relative;
+  font-weight: 600;
+}
+.airFilter_sec .filter_box_title h4:before{
+  font-family: 'FontAwesome';
+  position: absolute;
+  right: 5px;
+}
+.airFilter_sec .filter_box:not(.open) .filter_box_title h4:before{
+  content: "\f067";
+}
+.airFilter_sec .filter_box.open .filter_box_title h4:before{
+  content: "\f068";
+}
+
+.airFilter_sec .filter_list {
+  padding: 0px;
+  padding-left: 10px;
+  margin: 0px;
+  list-style-type: none;
+  font-size: 14px;
+  font-weight: 500;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.airFilter_sec .filter_box.open .filter_list {
+  background: transparent;
+}
+
+.airFilter_sec .filter_item {
+  font-size: 13px;
+  cursor: pointer;
+  padding: 10px;
+  padding-left: 20px;
+  font-weight: 500;
+}
+
+.airFilter_sec .filter_item label {
+  cursor: inherit;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.airFilter_sec .filter_item label input {
+  width: 0;
+  height: 0;
+}
+.airFilter_sec .filter_item label input+span {
+  margin-left: 35px;
+  position: relative;
+}
+
+.airFilter_sec .filter_item label input+span:before {
+  content: "";
+  font-family: 'FontAwesome';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  padding-left: 3px;
+  left: -35px;
+  color: #ffffff;
+  background: transparent;
+  border: 2px solid #efe9ea;
+  border-radius: 3px;
+}
+.airFilter_sec .filter_item label input:checked+span:before {
+  content: "\f00c";
+  border: 0;
+}
+
+.airFilter_sec.theme1 .filter_item label input:checked+span:before {
+  background: #FFCC98;
+}
+
+.airFilter_sec.theme2 .filter_item label input:checked+span:before {
+  background: #EED6BF;
+}
+
+.airFilter_sec.theme3 .filter_item label input:checked+span:before {
+  background: #14C7DE;
+}
+
+.airFilter_sec.theme4 .filter_item label input:checked+span:before {
+  background: #009EAA;
+}
+
+.airFilter_sec.theme5 .filter_item label input:checked+span:before {
+  background: #1974D3;
+}
+

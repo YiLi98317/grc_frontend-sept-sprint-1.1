@@ -1,0 +1,30 @@
+#v_assessment_sec .newTrigger {
+  max-width: initial;
+}
+
+#v_assessment_sec .assessment_Table tbody td,
+#v_assessment_sec .assessment_Table thead th {
+  font-size: 13px;
+}
+
+#v_assessment_sec .fc_scroller::-webkit-scrollbar {
+  height: 2px;
+}
+
+#v_assessment_sec .card_header  {
+  max-height: initial;
+}
+#v_assessment_sec .card_header a {
+  font-size: 15px;
+}
+
+#v_assessment_sec .card_header a > span.complete_check {
+  margin-left: 5px !important;
+  overflow: initial !important;
+}
+
+#v_assessment_sec form.vendor_custom_form2 select,
+#v_assessment_sec form.vendor_custom_form2 input {
+  font-size: 13px !important;
+  height: 30px;
+}

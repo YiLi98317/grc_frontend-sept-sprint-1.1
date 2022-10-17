@@ -1,0 +1,30 @@
+.v_management_sec .buttom_submit_block.plus button {
+    background: transparent linear-gradient( 143deg, #FCBA3F 0%, #DB2A5A 53%, #D9551A 100%) 0% 0% no-repeat padding-box;
+    border: none;
+    outline: none;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+    color: #fff!important;
+    border-radius: 50%;
+}
+
+.v_management_sec .vm_btns_box a{
+    padding: 7px 10px;
+    font-size: 14px !important;
+    max-width: 120px
+}
+
+.v_management_sec .vendor_search_block span.search_icn {
+    top: 8px;
+}
+
+.v_management_sec .vendor_select_box .vendor_select__control{
+    font-size: 14px;
+}
+
+.v_management_sec form.vendor_custom_form2 select,
+.v_management_sec form.vendor_custom_form2 input{
+    font-size: 12px !important;
+    height: 30px;
+}

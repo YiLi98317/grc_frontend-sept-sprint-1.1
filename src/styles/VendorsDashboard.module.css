@@ -1,0 +1,43 @@
+#v_dashbord_sec .vendor_name {
+  width: 170px;
+}
+#v_dashbord_sec .vendor_email {
+  width: 250px;
+}
+#v_dashbord_sec .vendor_score {
+  width: 50px;
+}
+#v_dashbord_sec .vendor_info_box {
+  font-size: 12px;
+}
+#v_dashbord_sec .count {
+  font-size: 20px;
+  position: relative;
+}
+#v_dashbord_sec .color_1 {
+  color: #319fa9;
+}
+#v_dashbord_sec .color_2 {
+  color: #59e0f7;
+}
+#v_dashbord_sec .color_3 {
+  color: #1974D3;
+}
+#v_dashbord_sec .count::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -20px;
+}
+#v_dashbord_sec .count.color_1::before {
+  background: #319fa9;
+}
+#v_dashbord_sec .count.color_2::before {
+  background: #59e0f7;
+}
+#v_dashbord_sec .count.color_3::before {
+  background: #1974D3;
+}

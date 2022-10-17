@@ -1,0 +1,21 @@
+#v_questionaire_sec .btn_outline_primary {
+  max-width: 120px;
+}
+
+#v_questionaire_sec ul.level3 > li > .fieldCaption {
+  border: 1px solid #717a86;
+  height: 100%;
+  margin: 10px;
+  border-radius: 10px;
+  min-height: 61px;
+  padding: 10px;
+  transition: 0.5ms ease;
+}
+#v_questionaire_sec .va_header_section {
+  font-size: 18px !important;
+}
+
+#v_questionaire_sec ul.level2 > li > a,
+#v_questionaire_sec ul.level3 > li > a {
+  font-size: 14px;
+}

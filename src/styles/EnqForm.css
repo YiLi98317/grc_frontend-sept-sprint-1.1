@@ -1,0 +1,44 @@
+/* input[type=date] {
+    text-align: right;
+  }
+  
+  input[type="date"]:before {
+    color: lightgrey;
+    content: attr(placeholder) !important;
+    margin-right: 0.5em;
+  }
+
+
+  input[type="date"]:before {
+    color: lightgrey;
+    content: attr(placeholder) !important;
+    margin-right: 0.5em;
+  }
+  input[type="date"]:focus:before {
+    content: '' !important;
+  } */
+
+input[type="date"] {
+    position: relative;
+    color: white;
+}
+
+input[type="date"]:before {
+    position: absolute;
+    top: 3px; left: 3px;
+    content: attr(data-date);
+    display: inline-block;
+    color: black;
+}
+
+input[type="date"]::-webkit-datetime-edit, input::-webkit-inner-spin-button, input::-webkit-clear-button {
+    display: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    color: black;
+    opacity: 1;
+}

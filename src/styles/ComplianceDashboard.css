@@ -1,0 +1,107 @@
+
+.config_tabs_box a{
+    padding: 6px 8px;
+    font-size: 12px;
+}
+ .config_tabs_box a.active{
+   color: #ffffff !important;
+   background-color: #000;
+}
+
+.task_block .status {
+  width: 90px !important;
+}
+
+.task_block .jus_end {
+  width: 25px !important;
+  min-width: 25px !important;
+}
+
+.task_block .task_id {
+  width: 90px !important;
+}
+.falling_dot span{
+  background-color: #40c7de !important;
+  border: 1px solid #40c7de !important;
+}
+.falling_dot span.blue_color{
+  background-color: #309daa !important;
+  border: 1px solid #309daa !important;
+}
+p.adher span {
+  background-color: #2774d3;
+  border: 1px solid #2774d3;
+}
+p.adherence span {
+  background-color: #40c7de;
+  border: 1px solid #40c7de;
+}
+.boxes_flex_1{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    width: 200px;
+    max-width: 100%;
+}
+.boxes_flex_21{
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  width: 655px;
+  max-width: 100%;
+}
+.boxes_flex_22{
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  width: 600px;
+  max-width: 100%;
+}
+
+.box_heading_dash{
+  color: #1C204D;
+  font-weight: 600;
+  font-size: 14px;
+}
+.dropdown_layout{
+  font-size: 12px;
+  min-width: 240px;
+  max-width: 240px;
+  margin-top: -5px;
+}
+.download_pdf_sections .rmsc .dropdown-heading{
+  height: 25px;
+}
+.download_pdf_sections .rmsc {
+  --rmsc-hover: #e0e2e3;
+  --rmsc-selected: #fff;
+}
+.rmsc .clear-selected-button{
+  display: none;
+  visibility: hidden;
+  width: 1px;
+}
+
+.select-panel ul li{
+  background-color: #fff;
+}
+.select-panel .selected{
+  padding: 0px;
+  margin: -5px;
+}
+.select-panel .false{
+  padding: 0px;
+  margin: -5px;
+
+}
+.select-panel .select-item .selected{
+  background-color: red;
+}
+.download_pdf_sections{
+  margin-top: -10px;
+}
+@media screen and (max-width:1199px) {
+  p.adher {
+  max-width: 150px;
+  }
+}

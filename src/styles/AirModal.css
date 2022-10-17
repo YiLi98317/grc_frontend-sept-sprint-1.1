@@ -1,0 +1,41 @@
+.task_details_modal.completed .modal-dialog {
+    margin-right: calc( 25% - 50px );
+}
+
+.task_details_modal.pending .modal-dialog {
+    margin-left: calc( 25% + 140px );
+}
+
+.task_details_modal.in_progress .modal-dialog {
+    margin-left: calc( 50% + 88px );
+}
+
+.task_details_modal.review .modal-dialog {
+    margin-right: calc( 50% - 105px );
+}
+
+.task_details_block {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.task_details_block .task_detail_status_block .box {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.task_details_block .task_detail_status_block .box label {
+    min-width: 150px
+}
+
+.task_details_block .task_detail_info_block p.desc {
+    font-size: 13px;
+}
+.new_task_add_modal textarea{
+    resize: none;
+}
